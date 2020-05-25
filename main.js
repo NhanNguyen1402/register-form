@@ -9,7 +9,7 @@ const validation = () => {
     const check = document.getElementById('check');
     const err = document.getElementById('err-mess') ;
         
-        if(name == "" || pass == "" ){
+        if(name == "" || pass == "" || mail == "" || phone == "" ){
             err.style.display = "block";
             err.innerHTML = 'Please enter enough information !';
             return false;
