@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Russo+One&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ body {
+     background: #9f1265;
+ }
+
+ .main {
+     background: whitesmoke;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     max-width: 600px;
+     width: 100%;
+     border-radius: 7px;
+ }
+
+ .tittle {
+     background: black;
+     margin: 0px;
+     border-radius: 7px 7px 0px 0px;
+     padding: 10px;
+     color: #fff;
+     text-align: center;
+ }
+
+ .tittle h4 {
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 7px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+ }
+
+ .form {
+     margin: 15px;
+     padding: 15px;
+     text-align: center;
+ }
+
+ #err-mess {
+     width: 100%;
+     font-family: 'El Messiri', sans-serif;
+     background: red;
+     color: white;
+     padding: 3px;
+     transition: all 0.5s ease;
+     display: none;
+ }
+
+ .form input[type='text'], input[type = 'password'] {
+     border: 0.2px  solid;
+     width: 100%;
+     border-radius: 4px;
+     margin: 10px 0px;
+     padding: 10px;
+ }
+
+ .form input[type='submit'] {
+     color: white;
+     border: none;
+     background-color: #9f1265 ;
+     border-radius: 25px;
+     width: 150px;
+     height: 30px;
+     text-align: center;
+     margin: 10px;
+     font-family: 'El Messiri', sans-serif;
+     letter-spacing: 3px;
+     font-weight: bold;
+     text-transform: uppercase;
+     text-align: center;
+     cursor: pointer;
+ }
+
+ .form input:focus {
+     outline: 0;
+     
+ }
+
+
+
+
+
+
+
+
