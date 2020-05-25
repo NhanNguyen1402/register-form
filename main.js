@@ -8,7 +8,6 @@ const validation = () => {
     const phone = document.getElementById('phone').value;
     const check = document.getElementById('check');
     const err = document.getElementById('err-mess') ;
-    console.log(phone);
         
         if(name == "" || pass == "" ){
             err.style.display = "block";
